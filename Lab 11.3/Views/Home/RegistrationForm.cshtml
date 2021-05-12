@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "RegistrationForm";
+}
+<style>
+
+</style>
+
+<form method="post" action="/home/AddUser">
+    <fieldset>
+        <legend>Registration Form:</legend>
+        First Name: <input type="text" name="firstname" /><br /><br />
+        Last Name: <input type="text" name="lastname" /><br /><br />
+        User Name (Login): <input type="text" name="username" /><br /><br />
+        Email: <input type="email" name="email" /><br /><br />
+        Phone: <input type="tel" name="phone" value="#(###)###-####" /><br /><br />
+        Favorite Coffee: <input type="text" name="favcoffee" /><br /><br />
+        Favorite Pastry: <input type="text" name="favpastry" /><br /><br />
+        Password: <input type="password" name="password" /><br /><br />
+        Re-enter Password: <input type="password" name="passcheck" /><br /><br />
+
+        <input type="submit" />
+    </fieldset>
+
+
+</form>
